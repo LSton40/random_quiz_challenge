@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <header id="timeHead">
+        <p id="score">Score: 0</p>
+        <p id="clock"></p>
+    </header>
+    <main>
+    <section id="introCard">
+        <h1>Random Quiz</h1>
+        <p>This is a quiz of random questions. Answer each question to the best of your ability. </br>
+            There is only one correct answer per question. </br>
+            For each erroneous response, 3 seconds will be deducted from your time. </br>
+            The quiz ends when you answer all questions or the timer reaches 0. </br>
+            Enter your initials and your score will be compared with the highest score yet received.</p>
+        <button id="startButton">Begin Quiz!</button>
+    </section>
+
+    <section id="quizTemplate">
+        <h2 id="qHeading">Question</h2>
+        <p id="qText"></p>
+        <div id="butWrapper">
+            <button class="butSelect"></button>
+            <button class="butSelect"></button>
+            <button class="butSelect"></button>
+            <button class="butSelect"></button>
+        </div>
+        <div id="feedback">
+            <p id="inCorrect"></p>
+        </div>
+    </section>
+
+    <section id="gameOver">
+        <h2>Game over!</h2>
+        <form action="" id="submitScore">
+            <label for="initName" id="enterIn">Enter initials:</label>
+            <input type="text" id="initials" name="initName">
+            <input type="submit" value="Submit" id="submitBut">
+        </form>
+
+    </section>
+
+    <section id="startAgain">
+        <h2>Highest Score:</h2>
+        <p id="rankings"></p>
+        <!-- <ul id="rankings"></ul> -->
+        <button id="tryAgain">Try again!</button>
+        <button id="clearScores" href="">Clear all scores.</button>
+    </section>
+</main>
+
+    <script src="assets/script.js"></script>
+
+</body>
+</html>

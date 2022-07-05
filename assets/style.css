@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html, body {
+    height: 100vh;
+}
+
+#timeHead {
+    height: 10%;
+    background-color: rgb(145, 140, 197);
+    padding: 5px 20px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main {
+    height: 90%;
+    display: grid;
+    justify-content: center;
+    background-color: azure;
+}
+
+h1 {
+    font-size: 3.5vw;
+    margin-bottom: 100px;
+}
+
+h2 {
+    font-size: 3vw;
+    margin-bottom: 100px;
+}
+
+p {
+    font-size: 1.8vw;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 1.3vw;
+    width: 30vw;
+    height: 50px;
+    margin-bottom: 5px;
+    background-color: rgb(145, 140, 197);
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgb(166, 163, 197);
+}
+
+button:active {
+    background-color: rgb(105, 103, 128);
+    box-shadow: 0 5px 15px rgb(145, 140, 197);
+}
+
+#score {
+    margin: 0;
+    visibility: hidden;
+}
+
+#clock {
+    margin: 0;
+}
+
+section#introCard {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#quizTemplate {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#butWrapper {
+    display: grid;
+}
+
+#feedback {
+    margin-top: 10px;
+    height: 50px;
+}
+
+
+section#gameOver {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#enterIn {
+    font-size: 1.8vw;
+    margin-bottom: 10px;
+}
+
+#submitScore {
+    display: grid;
+    width: 30vw;
+}
+
+#initials, #submitBut {
+    height: 50px;
+    font-size: 1.5vw;
+    border-radius: 10px;
+}
+
+#submitBut {
+    background-color: rgb(145, 140, 197);
+}
+
+section#startAgain {
+    display: none;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+#rankings {
+    background-color: blanchedalmond;
+    padding: 10px 10px;
+
+}
+
+
