@@ -18,3 +18,9 @@ The user's score is compared with the previously saved score. Whichever is highe
 If the user's score is highest, they will see their initials and score displayed at the end of the quiz.
 The user has the option of trying to take the quiz again with the current score standings or they may wipe all previous scores and try again from scratch.
 ```
+
+##Link
+https://lston40.github.io/random_quiz_challenge/
+
+##Screenshot
+![lston40 github io_random_quiz_challenge_](https://user-images.githubusercontent.com/103286445/177231010-9b965d20-8abd-46bf-8fda-84073acd90ec.png)
